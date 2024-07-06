@@ -1,0 +1,203 @@
+.header {
+    position: relative;
+    background-color: white;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.25);
+    display: flex;
+    gap: 20px;
+    font-size: 22px;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+    justify-content: space-between;
+    margin: -8px;
+  }
+
+  .logo {
+    aspect-ratio: 4.35;
+    object-fit: auto;
+    object-position: center;
+    width: 321px;
+  }
+
+  .menu {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-right: 20px;
+  }
+
+  .menu-item {
+    font-family: Montserrat, sans-serif;
+    border-radius: 20px;
+    background-color: #d9d9d9;
+    white-space: nowrap;
+    justify-content: center;
+    padding: 8px 13px;
+  }
+
+  .home {
+    background-image: url(laptop.png);
+    display: flex;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: -8px;
+  }
+
+  .home-title {
+    position: relative;
+    background: linear-gradient(101deg, #1e3c73 0%, #e12823 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 699px;
+    margin: 177px 0 140px 39px;
+    font: 800 60px Montserrat, sans-serif;
+
+  }
+
+  .about{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(111deg, #1e3c73 26.73%, #e12823 100%);
+    border: 0px solid;
+    margin: -8px;
+  }
+
+  .about-title{
+    font: 800 40px Montserrat, sans-serif;
+    color: #1e3c73;
+    border: 10px solid;
+    border-color: white;
+    background-color: white;
+    border-radius: 20px;
+    width:135px;
+    padding: 5px;
+    margin-left: 30px;
+    margin-top: 78px;
+    
+  }
+
+  .about-description{
+    font: 600 40px Montserrat, sans-serif;
+    color: #fff;
+    border: 0px solid;
+    width: 1100px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 93px;
+
+  }
+
+  .field-title{
+    font: 600 20px Montserrat, sans-serif;
+    color: white;
+    border: 1px solid;
+    background: linear-gradient(111deg, #1e3c73 26.73%, #e12823 100%);
+    border-radius: 20px;
+    width: 231px;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: -8px;
+    margin-top: 50px;
+    margin-left: 475px;
+  }
+
+  .field-body{
+    display: flex;
+    margin-left: 70px;
+  }
+
+  .border{
+    border-radius: 20px;
+    background: linear-gradient(111deg, #1e3c73 26.73%, #e12823 100%);
+    margin: 20px;
+  }
+
+  .research-title{
+    font: 600 17px Montserrat, sans-serif;
+    margin: 5px;
+    background: white;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: white;
+    width: 200px;
+    height: 360px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .research-desc{
+    font: 600 15px Montserrat, sans-serif;
+  }
+
+  .fmi{
+    font: 600 30px Montserrat, sans-serif;
+    text-align: center;
+    color: #1e3c73;
+    margin: -8px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .contacts-body{
+    background-color: #1e3c73;
+    margin: -8px;
+  }
+
+  .grup1{
+    display: flex;
+  }
+
+  .grup2{
+    display: flex;
+  }
+
+  .contacts-title{
+    height: 90px;
+    width: 307px;
+    margin: 50px;
+    text-align: center;
+    margin-top: 37px;
+    margin-bottom: 70px;
+  }
+
+  .contacts-desc{
+    font: 600 15px Montserrat, sans-serif;
+    color: white;
+  }
+  
+  .aboutme{
+    background: #1e3c73;
+    margin: -8px;
+    padding-left: 30px;
+  }
+
+  .amtitle{
+    font: 600 30px Montserrat, sans-serif;
+    color: white;
+    border: 1px solid;
+    border-color: #1e3c73;
+    padding-top: 50px;
+  }
+
+  .profile{
+    font: 600 30px Montserrat, sans-serif;
+    color: white;
+  }
+
+  .desc{
+    width: 900px;
+  }
+
+  .sosmed{
+    margin-right: 60px;
+    margin-bottom: 10px;
+    font: 600 15px Montserrat, sans-serif;
+    color: white;
+    text-align: center;
+  }
